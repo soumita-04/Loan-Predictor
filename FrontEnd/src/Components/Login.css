@@ -1,0 +1,125 @@
+/* General styling for the login page */
+.login-page {
+  background-color: rgb(219, 249, 255); /* Light blue background */
+  color: black;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Login content box styling */
+.login-content {
+  background-color: white; /* White card background */
+  padding: 500px;
+  border-radius: 300px;
+  box-shadow:0 4px 8px rgba(0.5,.5,0.5,0.5); /* Soft shadow */
+  text-align: center;
+  width: 2000px;
+  max-width: 400px; /* Restrict the width */
+  margin-top:  -1035px;
+}
+
+/* Login heading styling */
+.login-content h2 {
+  font-size: 10rem;
+  margin-bottom:  50px;
+  color: #01333a; /* Dark blue */
+  margin-top: -186px ;
+}
+
+/* Styling for the form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 250%;
+  margin-top: 10px;
+  margin-left: -254px
+}
+.login-password {
+  display: flex;
+  flex-direction: column;
+  width: 250%;
+  margin-top: 10px;
+  margin-left: -254px
+}
+
+/* Input field styling */
+.login-form input
+ {
+  padding: 58px;
+  font-size: 2.5rem;
+  margin-bottom: 29px;
+  border: 7.5px solid #ccc;
+  border-radius: 41px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login-password input {
+  padding: 58px;
+  font-size: 2.5rem;
+  margin-bottom: 29px;
+  border: 7.5px solid #ccc;
+  border-radius: 41px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Submit button styling */
+.login-form button
+ {
+  padding: 42px;
+  margin-left: -20px;
+  font-size: 3rem;
+  background-color: #008293;
+  color: white;
+  border: none;
+  border-radius: 52px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+.login-password button
+{
+  padding: 42px;
+  margin-left: -20px;
+  font-size: 3rem;
+  background-color: #008293;
+  color: white;
+  border: none;
+  border-radius: 52px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+/* Button hover effect */
+.login-form button:hover{
+
+  background-color: #01333a;
+}
+.login-password button:hover {
+  background-color: #01333a;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+  .login-content {
+    padding: 20px;
+  }
+
+  .login-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .login-form input,
+  .login-password input {
+    font-size: 0.9rem;
+  }
+
+  .login-form button,
+  .login-password button {
+    font-size: 0.9rem;
+  }
+}
